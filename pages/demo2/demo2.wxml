@@ -1,0 +1,4 @@
+<view class="big">
+  <view class="title">{{title}}</view>
+  <rich-text class="news" nodes="{{news}}"></rich-text>
+</view>

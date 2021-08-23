@@ -23,7 +23,7 @@
     "compileHotReLoad": false,
     "useMultiFrameRuntime": true,
     "useApiHook": true,
-    "useApiHostProcess": true,
+    "useApiHostProcess": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -40,7 +40,7 @@
   },
   "compileType": "miniprogram",
   "libVersion": "2.18.1",
-  "appid": "wx471a92196cd4c9df",
+  "appid": "wxaf281b02a42964ae",
   "projectname": "新闻",
   "debugOptions": {
     "hidedInDevtools": []

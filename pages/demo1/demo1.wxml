@@ -1,6 +1,6 @@
 <view wx:for="{{list}}" wx:key="index">
   <view class="item">
-  <navigator class="item2" url="/pages/index/index?id={{item.post_id}}" >
+  <navigator class="item2" url="/pages/demo2/demo2?id={{item.post_id}}" >
     <view>
       <image class="pic"  src='{{item.author_avatar}}'></image>
     </view>
