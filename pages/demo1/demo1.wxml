@@ -1,0 +1,17 @@
+<view wx:for="{{list}}" wx:key="index">
+  <view class="item">
+  <navigator class="item2" url="/pages/index/index?id={{item.post_id}}" >
+    <view>
+      <image class="pic"  src='{{item.author_avatar}}'></image>
+    </view>
+    <view class="number-wrapper">
+      <view >
+        <text class="count">{{item.title}}</text>
+      </view>
+      <view>
+        <text class="time">{{item.created_at}}</text>
+      </view>
+    </view>
+  </navigator >
+  </view>
+</view>
